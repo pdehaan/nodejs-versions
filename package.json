@@ -1,0 +1,26 @@
+{
+  "name": "nodejs-vuln-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "channels": "node channels",
+    "start": "node index",
+    "releases": "node releases",
+    "releases:16": "node releases 16",
+    "releases:18": "node releases 18",
+    "releases:20": "node releases 20",
+    "scraper": "node scraper",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Peter deHaan <peter@deseloper.com>",
+  "license": "MPL-2.0",
+  "dependencies": {
+    "@11ty/eleventy-fetch": "^4.0.0",
+    "cheerio": "^1.0.0-rc.12",
+    "semver": "^7.5.4",
+    "xml2js": "^0.6.2"
+  }
+}
