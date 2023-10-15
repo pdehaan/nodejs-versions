@@ -1,26 +1,35 @@
 {
-  "name": "nodejs-vuln-2",
-  "version": "1.0.0",
+  "name": "nodejs-versions",
   "description": "",
-  "main": "index.js",
-  "type": "module",
-  "scripts": {
-    "channels": "node channels",
-    "start": "node index",
-    "releases": "node releases",
-    "releases:16": "node releases 16",
-    "releases:18": "node releases 18",
-    "releases:20": "node releases 20",
-    "scraper": "node scraper",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
+  "version": "1.0.0",
   "author": "Peter deHaan <peter@deseloper.com>",
-  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/pdehaan/nodejs-versions/issues"
+  },
   "dependencies": {
     "@11ty/eleventy-fetch": "^4.0.0",
     "cheerio": "^1.0.0-rc.12",
     "semver": "^7.5.4",
     "xml2js": "^0.6.2"
-  }
+  },
+  "devDependencies": {},
+  "homepage": "https://github.com/pdehaan/nodejs-versions#readme",
+  "keywords": [],
+  "license": "MPL-2.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pdehaan/nodejs-versions.git"
+  },
+  "scripts": {
+    "channels": "node channels",
+    "releases": "node releases",
+    "releases:16": "node releases 16",
+    "releases:18": "node releases 18",
+    "releases:20": "node releases 20",
+    "scraper": "node scraper",
+    "start": "node index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module"
 }
